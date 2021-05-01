@@ -25,7 +25,8 @@
   Use this program from within your web browser to track your fitness!
   
   ## Live Site
-
+  https://mighty-lake-85486.herokuapp.com/
+  
 
   ## GitHub Repo 
   https://github.com/adamnatrop/fitness_tracker
