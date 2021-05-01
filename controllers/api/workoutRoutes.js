@@ -51,7 +51,14 @@ router.put('/:id', async (req, res) => {
 
 router.get('/range', async (req, res) => {
     try {
-        const rangeWorkout = await db.Workout.find()
+        const rangeWorkout = await db.Workout.aggregate([
+            { 
+                $addFields: 
+                  { 
+                    totalDuration: {$sum: "$exercises.duration"},
+                  }
+                  }
+              ]);
         
         res.status(200).json(rangeWorkout)
     } catch (err) {
