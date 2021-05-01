@@ -15,10 +15,11 @@
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Screenshots](#screenshots)
   
   ## Installation
   
-  Install using either NPM install, or run right from online server. 
+  Install using either NPM install, or run right from the online server. 
   
   ## Usage
   
@@ -26,7 +27,7 @@
   
   ## Live Site
   https://mighty-lake-85486.herokuapp.com/
-  
+
 
   ## GitHub Repo 
   https://github.com/adamnatrop/fitness_tracker
@@ -36,7 +37,13 @@
   The Unlicense
   Review License terms at [http://unlicense.org/](http://unlicense.org/)
   
+
+  ## Screenshots
+  ![screemshot01](./public/images/screenshot01.jpg)
   
+  ![screemshot02](./public/images/screenshot02.jpg)
+
+
   ## Questions
   Check out my Github for more information
   
