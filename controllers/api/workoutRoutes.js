@@ -58,7 +58,7 @@ router.get('/range', async (req, res) => {
                     totalDuration: {$sum: "$exercises.duration"},
                   }
                   }
-              ]);
+              ]).limit(7);
         
         res.status(200).json(rangeWorkout)
     } catch (err) {
